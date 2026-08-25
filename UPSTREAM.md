@@ -16,6 +16,7 @@ AgentQA additions in this tree are limited to:
 
 - this `UPSTREAM.md`
 - seeded AgentQA case files under `tests/cases/` (spec FR-1 shape)
+- a one-line `Dockerfile` fix (poetry pinned to 1.1.15 — upstream's `poetry==1.1` resolves to a broken 1.1.0 on modern pip)
 
 No OpenAPI document is committed in this repo — the API catalog must be built
 from capture (AQ-210 acceptance).
